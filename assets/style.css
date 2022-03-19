@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto Serif', serif;
+    background-color: #ECE2E2;
+    color: #1F014F
+}
+
+main {
+    margin:80px
+}
+/* header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    margin: 80px;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+header a {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-shadow: 1px 1px 2px #000000;
+}
+
+#navBar__email {
+    color: #173E02
+}
+
+#presentacion {
+    margin-bottom: 50px;
+}
+
+#presentacion h3, #resumen h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#presentacion p, #resumen p {
+    line-height: 35px;
+    font-size: 22px;
+}
+
+#links__personales {
+    display: flex;
+    vertical-align: middle;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+#links__personales ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+#links__personales a {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#resumen, #habilidades, #intereses {
+    line-height: 28px;
+    margin-bottom: 70px;
+}
+
+#habilidades h2, #intereses h2, #educacion h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#habilidades ul, #intereses ul, #educacion ul {
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    border-radius: 9%;
+    text-align: center;
+    width: 100%;
+    height: 240px;
+    margin-right: 20px;
+    background-color: #1F014F;
+}
+
+.cards__icons {
+    color: #ECE2E2;
+    margin-top: 25%;
+}
+
+.cards p {
+    margin-top: 15%;
+    color: #ECE2E2;
+    font-size: 18px;
+}
+
+#educacion li {
+    border-radius: 9%;
+    background-color: #1F014F;
+    width: 100%;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.educacion__logo {
+        height: 250px;
+        margin-top: 10px;
+        width: 80%;
+    }
+
+footer {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3rem;
+    vertical-align: middle;
+}
