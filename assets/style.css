@@ -19,7 +19,7 @@ header {
 }
 
 header h1 {
-    font-size: 38px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
@@ -27,6 +27,13 @@ header a {
     margin-right: 1rem;
     text-decoration: none;
 }
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 80px;
+  }
 
 header a:hover {
     text-shadow: 1px 1px 2px #000000;
@@ -48,15 +55,13 @@ header a:hover {
 
 #presentacion p, #resumen p {
     line-height: 35px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #links__personales {
     display: flex;
-    vertical-align: middle;
     width: 100%;
-    height: 80px;
-    margin-bottom: 55px;
+    margin-top: 55px;
     text-align: center;
 }
 
@@ -113,19 +118,18 @@ header a:hover {
     font-size: 18px;
 }
 
-#educacion li {
+.educacion-card li  {
     border-radius: 9%;
-    background-color: #1F014F;
+    background-color: #ECE2E2;
     width: 100%;
-    height: 200px;
-    margin-right: 20px;
+    height: 220px;
+    margin-right: 2rem;
     margin-bottom: 20px;
 }
 
 .educacion__logo {
-        height: 250px;
-        margin-top: 10px;
-        width: 80%;
+    height: 190px;
+    width: 220px;
     }
 
 footer {
