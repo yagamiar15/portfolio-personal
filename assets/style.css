@@ -7,7 +7,6 @@ body {
 main {
     margin:80px
 }
-/* header */
 
 header {
     display: flex;
@@ -60,14 +59,12 @@ header a:hover {
 
 #links__personales {
     display: flex;
-    width: 100%;
     margin-top: 55px;
     text-align: center;
 }
 
 #links__personales ul {
     display: flex;
-    width: 100%;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
@@ -86,7 +83,7 @@ header a:hover {
     margin-bottom: 70px;
 }
 
-#habilidades h2, #intereses h2, #educacion h2 {
+#habilidades h2, #intereses h2, #educacion h2, #proyectos h2 {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 40px;
@@ -130,6 +127,7 @@ header a:hover {
 .educacion__logo {
     height: 190px;
     width: 220px;
+    object-fit: contain;
     }
 
 footer {
